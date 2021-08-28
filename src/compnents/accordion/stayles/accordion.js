@@ -3,7 +3,10 @@ import styled from "styled-components/macro";
 export const Item = styled.div`
   margin-bottom: 10px;
   color: white;
+  margin-: auto;
+  width: 100%;
   max-width: 670px;
+
   &:first-of-type {
     margin-top: 3em;
   }
