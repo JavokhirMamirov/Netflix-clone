@@ -7,7 +7,7 @@ import {
   Body,
   Header,
   Inner,
-} from "./stayles/accordion";
+} from "./styles/accordion";
 const ToogleContext = createContext();
 
 export default function Accordion({ children, ...restProps }) {

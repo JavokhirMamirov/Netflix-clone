@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React from "react";
-import { Container, Button, Input, Text, Break } from "./stayles/opt-form";
+import { Container, Button, Input, Text, Break } from "./styles/opt-form";
 export default function OptForm({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
 }
